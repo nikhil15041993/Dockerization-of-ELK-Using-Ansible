@@ -64,7 +64,7 @@
 
      - name: Copy kibana.yml file
        template: 
-          src: "/home/nikhils/Documents/Automation/ELK/kiban.yml.j2" 
+          src: "./kiban.yml.j2" 
           dest: "/home/ubuntu/"
 
 
@@ -81,7 +81,7 @@
 
      - name: copy logstash configuration file
        template:
-          src: "/home/nikhils/Documents/Automation/ELK/beats.conf.j2"
+          src: "./beats.conf.j2"
           dest: "/home/ubuntu/"
          
 
