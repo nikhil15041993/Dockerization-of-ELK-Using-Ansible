@@ -46,7 +46,7 @@ ansible all -i localhost, --connection=local -m ping
 
 ## Playbook.yml
 
-The playbook.yml file is where all tasks from this setup are defined. It starts by defining the group of servers that should be the target of this setup (remote), after which it uses become: true to define that tasks should be executed with privilege escalation (sudo) by default. 
+ 
 
 ```
 
