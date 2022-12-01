@@ -95,4 +95,5 @@
                source: /home/ubuntu/logstash_pipeline
                target: /usr/share/logstash/pipeline/
                
-         
+     
+     
